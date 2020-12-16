@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: vm2 lambda
+
+Transform:
+- AWS::Serverless-2016-10-31
+
+Resources:
+  vm2lambda:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: lambda/.
+      Tracing: Active
+      Handler: index.handler
+      Runtime: nodejs12.x
+      MemorySize: 128
+      Timeout: 10
+      Description: A Lambda function that returns a static string.
+      Policies:
+        - AWSLambdaBasicExecutionRole

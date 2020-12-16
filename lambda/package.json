@@ -1,0 +1,19 @@
+{
+  "name": "lambda-vm2",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "vm2": "^3.9.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marekq/lambda-vm2.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marekq/lambda-vm2/issues"
+  },
+  "homepage": "https://github.com/marekq/lambda-vm2#readme"
+}
